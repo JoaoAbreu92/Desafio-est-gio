@@ -19,6 +19,7 @@
     <form action="#" class="was-validated well">
         <!--Nome-->
         <h1>Cadastro</h1>
+        <!--Container fluido para centralizar o conteudo-->
         <div class="container-fluid">
             <div class="mb-3 mt-3 well">
                 <label for="nome" class="form-label">Nome completo:</label>
@@ -27,6 +28,7 @@
                 <div class="valid-feedback">Valido.</div>
                 <div class="invalid-feedback">Por favor use apenas letras.</div>
             </div>
+            <!--O row para deixar o espaçamento funcionando corretamente sem erros-->
             <div class="row">
             </div>
             <!--Email-->
@@ -36,7 +38,7 @@
                 <div class="valid-feedback">Valido.</div>
                 <div class="invalid-feedback">Por favor use um email válido.</div><br>
                 <div class="row was-validated">
-                    <!--Telefone Celular e fixo com row para deixar um ao lado do outro-->
+                    <!--Telefone Celular, usando a class col para deixar ambos os telefones lado a lado-->
                     <div class="col">
                         <label for="celular" class="form-label">Celular:</label>
                         <input type="tel" class="form-control" id="celular" placeholder="(xx)xxxxx-xxxx"
@@ -54,6 +56,7 @@
                     </div>
                 </div>
             </div>
+            <!--Input de numero no fim do form-->
             <div class="mb-3 mt-3 well">
                 <label for="contagem" class="form-label">numero:</label>
                 <input type="tel" name="contagem" id="contagem"  placeholder="Digite de 1 a 999"  class="form-control" required maxlength="3"><br>

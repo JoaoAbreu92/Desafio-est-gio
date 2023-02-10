@@ -1,8 +1,9 @@
+
 .well {
     width: 50%;
     margin: 5% auto;
 }
-
+/*medidas e estilização do container*/
 .container-fluid {
     background-color: rgb(220, 231, 241);
     border-radius: 10px;
@@ -25,7 +26,11 @@ h1 {
     background-color: rgb(255, 255, 255);
     color: black;
 }
-
+/*efeito mudar de cor quando passa o mouse no botão enviar*/
 #enviar:hover{
     background-color: rgb(236, 52, 98);
+}
+
+label{
+    color: black;
 }
