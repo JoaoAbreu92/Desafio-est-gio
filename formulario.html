@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Link css-->
+    <link rel="stylesheet" href="./stile.css">
+    <link rel="stylesheet" href="./javascript.js">
+    <!--Link bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <form action="#" class="was-validated well">
+        <!--Nome-->
+        <h1>Cadastro</h1>
+        <div class="container-fluid">
+            <div class="mb-3 mt-3 well">
+                <label for="nome" class="form-label">Nome completo:</label>
+                <input type="texte" class="form-control" id="nomec" placeholder="Digite seu nome" name="nomec"
+                    pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" required maxlength="100">
+                <div class="valid-feedback">Valido.</div>
+                <div class="invalid-feedback">Por favor use apenas letras.</div>
+            </div>
+            <div class="row">
+            </div>
+            <!--Email-->
+            <div class="mb-3 mt-3 well">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu@email" name="email" required>
+                <div class="valid-feedback">Valido.</div>
+                <div class="invalid-feedback">Por favor use um email válido.</div><br>
+                <div class="row was-validated">
+                    <!--Telefone Celular e fixo com row para deixar um ao lado do outro-->
+                    <div class="col">
+                        <label for="celular" class="form-label">Celular:</label>
+                        <input type="tel" class="form-control" id="celular" placeholder="(xx)xxxxx-xxxx"
+                            pattern="\(?\d{2}\)?[\s-]?[\s9]?\d{4}-?\d{4}$" required maxlength="11">
+                        <div class="valid-feedback">Valido.</div>
+                        <div class="invalid-feedback">Por favor use um telefone válido.</div>
+                    </div>
+                    <!--Telefone Fixo-->
+                    <div class="col">
+                        <label for="fixo" class="form-label">Fixo:</label>
+                        <input type="tel" class="form-control" id="fixo" placeholder="(xx)xxxxx-xxxx"
+                            pattern="\(?\d{2}\)?[\s-]?[\s9]?\d{4}-?\d{4}$" required maxlength="11">
+                        <div class="valid-feedback">Valido.</div>
+                        <div class="invalid-feedback">Por favor use um telefone válido.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 mt-3 well">
+                <label for="contagem" class="form-label">numero:</label>
+                <input type="tel" name="contagem" id="contagem"  placeholder="Digite de 1 a 999"  class="form-control" required maxlength="3"><br>
+                <button type="submit" id="enviar" class="btn btn-outline-dark" value="Submit Button">Enviar</button>
+            </div> 
+        </div>
+    </form>
+
+
+
+
+
+    <!--Links JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
