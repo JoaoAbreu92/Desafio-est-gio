@@ -1,10 +1,9 @@
 # Desafio-est-gio
 Pequeno desafio com o intuito de mostrar um pouco dos meus conhecimento
-<h1 align="center">NewBook</h1>
 
 
 ## Formulário responsivo bootstrap
-<p align="center">Projeto Rede Social</p>
+<p align="center">Projeto estágio</p>
 
 
 <h3 align="center"> 
