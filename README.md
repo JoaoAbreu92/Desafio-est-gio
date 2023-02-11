@@ -1,5 +1,5 @@
-# Desafio-est-gio
-Pequeno desafio com o intuito de mostrar um pouco dos meus conhecimento
+<h2 align="center"> Desafio-estágio</h2>
+<p align="center"> Pequeno desafio com o intuito de mostrar um pouco dos meus conhecimento</p>
 
 
 ## Formulário responsivo bootstrap
