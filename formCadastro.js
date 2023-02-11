@@ -14,12 +14,12 @@ enviar.addEventListener("click", function (event) {
     let telefone = form.get('celular');
     let email = form.get('email');
 
-    /**  2.1 */
+    /* 2.1 */
     if((numero / 3) === 0){
         //split separa a string em array 
         alert(nome.split(' ')[0]);
     }
-    /**  2.1 */
+    /* 2.1 */
     else if((numero / 7) === 0){
         //charAt resgata o char da posição 
         alert(telefone.charAt[0] + telefone.charAt[1])
