@@ -15,9 +15,14 @@ if (num % 3) == 0:
     first = name.split(' ')
     print('O seu nome é {}.'.format(first[0]))
     # Se o número for divisivel por 5 retornar DDD do telefone
-if (num % 5) == 0:
+elif (num % 5) == 0:
     ddd = phone.split(' ')
     print('Seu ddd é {}'.format(ddd[0]))
-if (num % 7) == 0:
+elif (num % 7) == 0:
     domain = email.split('@')
     print("Seu dominio de email é {}".format(domain[1]))
+    #No else usei o len() para fazer a contagem dos caracters
+else:
+   
+    print('A quantidade de letras no seu nome é {} letras'.format(len(name) - name.count(' ')))
+    print('A quantida de caracteres excluindo @ e pontos é {}'.format(len(email) - email.count('.') - email.count('@')))
