@@ -1,3 +1,10 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./img/559128.jpg) no-repeat;
+    background-size: cover;
+    
+}
 .well {
     width: 45%;
     margin: 5% auto;
@@ -12,6 +19,7 @@
     padding-bottom: 20px;
     box-shadow: 10px 5px;
     color: rgb(236, 52, 98);
+    border: 1px solid rgb(46, 40, 40);
 }
 
 h1 {
@@ -22,20 +30,38 @@ h1 {
     color: rgb(236, 52, 98);
     box-shadow: 10px 5px;
     text-shadow: 4px 4px 2px white;
+    border: 1px solid rgb(90, 89, 89);
 }
 
 #enviar {
     background-color: rgb(255, 255, 255);
     color: black;
-
+    text-decoration: none;
 }
 
 
 /*efeito mudar de cor quando passa o mouse no botão enviar*/
 #enviar:hover {
     background-color: rgb(236, 52, 98);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#voltar {
+    background-color: rgb(255, 255, 255);
+    color: black;
+   
+}
+
+#voltar:hover {
+    background-color: rgb(236, 52, 98);
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 label {
     color: black;
+}
+.resp {
+    text-align: center;
 }

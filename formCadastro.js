@@ -11,7 +11,7 @@ enviar.addEventListener("click", function (event) {
 
     let nome = form.get('nome');
     let numero = form.get('numero');
-    let telefone = form.get('telefone');
+    let telefone = form.get('celular');
     let email = form.get('email');
 
     /**  2.1 */
