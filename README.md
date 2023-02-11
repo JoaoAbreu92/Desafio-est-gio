@@ -12,7 +12,7 @@ Pequeno desafio com o intuito de mostrar um pouco dos meus conhecimento
 
 <h4 align="center">
   Infelizmente por hora ainda nao sei integrar linguagens backend com frontend, não adianta eu ver como faz no youtube e chegar na hora de fazer sozinho nao conseguir, 
-  por isso prefiro estudar um pouco mais sobre o assunto, talvez procurar algum framwork para trabalhar como Django ou Nod.Js, quem sabe uma proxima vez eu tente novamente. 
+  por isso prefiro estudar um pouco mais sobre o assunto, talvez procurar algum framwork para trabalhar, como Django ou Nod.Js e quem sabe uma proxima vez eu tente novamente. 
   </h4>
 
 ### estrutura do projeto
